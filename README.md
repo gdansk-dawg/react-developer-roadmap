@@ -9,19 +9,95 @@
 In here, you can find the following markdown elements:
 
 1. Javascript - Understanding of the parnet.
-2. Version control (Github).
-3. React - Basic and more advanced areas of ReactJS.&#x20;
-4. Build tools (Package Managers: yarn, npm, pnpm. Module Builders: webpack, vite. TaskRunners: npm scripts, gulp).
-5. Styling (CSS Processor: Sass. CSS in JS: StyledComponents, Emotion. UI Frameworks: Mui).
-6. State Managment  (Component State, Libraries: context api, redux, zustand).
-7. Routing (react router).
+   - Dom manipulation
+   - Callbacks
+   - Promises
+   - Async/Await
+  
+2. Version control.
+  - GitLab
+  - GitHub
+
+3. React - Basic and more advanced areas of ReactJS.
+  - Virtual DOM
+  - Basics of React Components
+  - Conditional Rendering
+  - Rendering lists
+  - Pure components
+  - Component Splitting
+  - Reusability
+    ...
+  - Responding to events - Event handlers
+  - Basic states (useState, useEffect)
+  - How rendering works
+  - Updating complex states immutably
+
+  - Declarative vs Imperative UI
+  - Thinking UI Declaratively
+  - Finding & Structuring React States
+  - Connecting Event Handlers to React
+  - Sharing State between components
+  - Lifting State up
+  - Extracting State Logic into Reducers
+  - useReducer Hook
+  - How to use Immer with React for concised immutable State Update
+  - Passing Data Deeply inside React Components
+    
+  - Referencing values with Refs - useRef hook
+  - Manipulating the DOM with Refs
+  - Synchronizing with Effects - useEffect hook
+  - Separating events from Effects
+  - Removing Effect Dependencies
+  - Performance optimization with useCallback and useMemo hook
+  - Reusing logic with Custom Hooks
+  - Calling APIs from Back-end with React
+    
+4. Build tools
+Package managers:
+  - npm
+  - yarn
+  - bun
+Module Builders:
+  - Webpack
+  - Vite
+Task runners:
+  - npm scripts
+  - Gulp
+    
+5. Styling
+CSS/SASS
+UI Frameworks
+- styled components
+- emotion
+- material ui
+  
+6. Global state Managment Libraries
+   Redux
+   Zustand
+   Context API
+7. Routing - React Router.
+  
 8. Typescript.
-9. API (REST: axios, rtk. GRAPHQL: Apollo).
-10. Testing (Unit: Vitest + rtl. Integration testing: Karma? E2E: Selenium/Cypress).
-11. Internationalization (React Intl, React i18next)
-12. Eslint + Airbnb + prettier.
-13. Performance in React (profiler, caching, memo).
-14. Form building (react hook form)
+9. API
+Rest
+  - RTK
+  - Axios
+GraphQL
+
+12. Testing (Unit: Vitest + rtl. Integration testing: Karma? E2E: Selenium/Cypress).
+Unit testing
+  - Jest
+  - Vitest
+Integration testing
+  - Karma
+End to End testing
+  - Selenium
+  - Cypress
+
+14. Internationalization (React Intl, React i18next)
+15. Eslint + Airbnb + prettier.
+16. Performance in React (profiler, caching, memo).
+17. Form building (react hook form)
 
 Beyond React:
 
