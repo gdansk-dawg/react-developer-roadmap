@@ -1,90 +1,73 @@
 # Twinkl React Dev Roadmap (and beyond)
 
-> The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible.
-> The idea is that a Markdown-formatted document should be publishable as-is, as plain text,
-> without looking like it’s been marked up with tags or formatting instructions.
-
-[— Daring Fireball](https://daringfireball.net/projects/markdown/).
-
-In here, you can find the following markdown elements:
-
-1. Javascript - Understanding of the parnet.
-   - Dom manipulation
-   - Callbacks
-   - Promises
-   - Async/Await
+# Table of Contents
+1. [Javascript - Fundamentals](#javascript-1)
+   - [Dom manipulation](#javascript-11)
+   - [Callbacks](#javascript-12)
+   - [Promises](#javascript-13)
+   - [Async/Await](#javascript-14)
   
-2. Version control.
-  - GitLab
-  - GitHub
+2. [Version Control](#version-control-2)
+   - [GitLab](#section-21)
+   - [GitHub](#section-22)
 
-3. React - Basic and more advanced areas of ReactJS.
-  - Virtual DOM
-  - Basics of React Components
-  - Conditional Rendering
-  - Rendering lists
-  - Pure components
-  - Component Splitting
-  - Reusability
-    ...
-  - Responding to events - Event handlers
-  - Basic states (useState, useEffect)
-  - How rendering works
-  - Updating complex states immutably
-
-  - Declarative vs Imperative UI
-  - Thinking UI Declaratively
-  - Finding & Structuring React States
-  - Connecting Event Handlers to React
-  - Sharing State between components
-  - Lifting State up
-  - Extracting State Logic into Reducers
-  - useReducer Hook
-  - How to use Immer with React for concised immutable State Update
-  - Passing Data Deeply inside React Components
-    
+3. [React](#react-3)
+   - [Virtual DOM](#react-31)
+   - [Basics of React Components - useState/useEffect](#react-32)
+   - [Conditional rendering](#react-33)
+   - [Rendering lists](#react-34)
+   - [Pure components](#react-35)
+   - [Component Splitting](#react-36)
+   - [Reusability](#react-37)
+   - [Event handlers](#react-38)
+   - [Updating complex states immutably](#react-39)
+   - [Declarative vs Imperative UI](#react-311)
+   - [Thinking UI Declaratively](#react-312)
+   - [FInding & Structuring React States](#react-313)
+   - [Sharing state between components](#react-314)
+   - [Lifting state up](#react-315)
+   - [Advanced React Hooks](#react-316)
+   - [Concised immutable state update](#react-317)
+   - [Passing data deeply inside React components](#react-318)
+   - [useRef Hook](#react-319)
   - Referencing values with Refs - useRef hook
   - Manipulating the DOM with Refs
-  - Synchronizing with Effects - useEffect hook
-  - Separating events from Effects
-  - Removing Effect Dependencies
-  - Performance optimization with useCallback and useMemo hook
-  - Reusing logic with Custom Hooks
-  - Calling APIs from Back-end with React
+  - [useMemo and useCallback](#react-320)
+  - [Custom Hooks](#react-321)
     
-4. Build tools
-Package managers:
-  - npm
-  - yarn
-  - bun
-Module Builders:
-  - Webpack
-  - Vite
-Task runners:
-  - npm scripts
-  - Gulp
+3. [React](#build-tools-4)
+ 3.1 [Package Managers](#build-tools-4-1)
+  - [Npm](#build-tools-4-1-1)
+  - [Yarn](#build-tools-4-1-2)
+  - [BunJS](#build-tools-4-1-3)
+ 3.2 [Module Builders](#build-tools-4-2)
+  - [Webpack](#build-tools-4-2-1)
+  - [Vite](#build-tools-4-2-2)
+ 3.3 [Task runners](#build-tools-4-3)
+  - [Npm Scripts](#build-tools-4-3-1)
+  - [Gulp](#build-tools-4-3-2)
     
-5. Styling
+1. Styling
 CSS/SASS
 UI Frameworks
 - styled components
 - emotion
 - material ui
   
-6. Global state Managment Libraries
+1. Global state Managment Libraries
    Redux
    Zustand
    Context API
-7. Routing - React Router.
+2. Routing - React Router.
   
-8. Typescript.
-9. API
+3. Typescript.
+4. API
 Rest
   - RTK
   - Axios
 GraphQL
 
-12. Testing (Unit: Vitest + rtl. Integration testing: Karma? E2E: Selenium/Cypress).
+1.  Testing (Unit: Vitest + rtl. Integration testing: Karma? E2E: Selenium/Cypress).
 Unit testing
   - Jest
   - Vitest
@@ -94,10 +77,10 @@ End to End testing
   - Selenium
   - Cypress
 
-14. Internationalization (React Intl, React i18next)
-15. Eslint + Airbnb + prettier.
-16. Performance in React (profiler, caching, memo).
-17. Form building (react hook form)
+1.  Internationalization (React Intl, React i18next)
+2.  Eslint + Airbnb + prettier.
+3.  Performance in React (profiler, caching, memo).
+4.  Form building (react hook form)
 
 Beyond React:
 
@@ -109,50 +92,35 @@ Beyond React:
 6. Infrastructure (docker)
 7. AWS (Dynamo + lambda)
 
-## What can you do here?
 
-This is a great location for you to test how editing markdown feels. If you have an existing markdown source, you can switch to source mode using the toggle group in the top right, paste it in there, and go back to rich text mode.
+<div id='javascript-1'/>
 
-If you need a few ideas, here's what you can try:
+# 1. Javascript Fundamentals
 
-1. Add your own code sample
-2. Change the type of the headings
-3. Insert a table, add a few rows and columns
-4. Switch back to source markdown to see what you're going to get as an output
-5. Test the diff feature to see how the markdown has changed
-6. Add a frontmatter block through the toolbar button
+<div id='javascript-11'/>
 
-## A code sample
+## Dom Manipulation
 
-MDXEditor embeds CodeMirror for code editing.
+<div id='javascript-12'/>
 
-```tsx
-export default function App() {
-  return (<div>Hello world</div>)
-}
-```
+## Callbacks
 
-## A live code example
+<div id='javascript-13'/>
 
-The block below is a live React component. You can configure multiple live code presets that specify the available npm packages and the default imports. You can also specify a default component that will be rendered in the live code block.
+## Promises
 
-```jsx live
-export default function App() {
-  return (<div>
-  <p>This is a live React component, that's being previewed in codesandbox. </p>
-  <p>Editing it will update the fenced codeblock in the markdown.</p>
-  </div>)
-}
-```
+<div id='javascript-14'/>
 
-## A table
+## Async/Await
 
-Play with the table below - add rows, columns, change column alignment. When editing,
-you can navigate the cells with `enter`, `shift+enter`, `tab` and `shift+tab`.
+<div id='version-control-2'/>
 
-| Item              | In Stock | Price |
-| :---------------- | :------: | ----: |
-| Python Hat        |   True   | 23.99 |
-| SQL Hat           |   True   | 23.99 |
-| Codecademy Tee    |   False  | 19.99 |
-| Codecademy Hoodie |   False  | 42.99 |
+# 2. Version Control
+
+<div id='version-control-22'/>
+
+## GitHub
+
+<div id='version-control-23'/>
+
+## GitLab
