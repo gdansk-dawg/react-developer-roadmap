@@ -35,52 +35,60 @@
   - [useMemo and useCallback](#react-320)
   - [Custom Hooks](#react-321)
     
-3. [React](#build-tools-4)
- 3.1 [Package Managers](#build-tools-4-1)
+4. [React](#build-tools-4)
+ 4.1 [Package Managers](#build-tools-4-1)
   - [Npm](#build-tools-4-1-1)
   - [Yarn](#build-tools-4-1-2)
   - [BunJS](#build-tools-4-1-3)
- 3.2 [Module Builders](#build-tools-4-2)
+ 4.2 [Module Builders](#build-tools-4-2)
   - [Webpack](#build-tools-4-2-1)
   - [Vite](#build-tools-4-2-2)
- 3.3 [Task runners](#build-tools-4-3)
+ 4.3 [Task runners](#build-tools-4-3)
   - [Npm Scripts](#build-tools-4-3-1)
   - [Gulp](#build-tools-4-3-2)
     
-1. Styling
-CSS/SASS
-UI Frameworks
-- styled components
-- emotion
-- material ui
-  
-1. Global state Managment Libraries
-   Redux
-   Zustand
-   Context API
-2. Routing - React Router.
-  
-3. Typescript.
-4. API
-Rest
-  - RTK
-  - Axios
-GraphQL
+5. [Styling](#styling-5)
+5.1 [CSS/SASS](#styling-5-1)
+5.2 [Styling Libraries](#styling-5-2)
+  - [Material UI](#styling-5-2-1)
+  - [Emotion](#styling-5-2-2)
+  - [Styled Components](#styling-5-2-3)
 
-1.  Testing (Unit: Vitest + rtl. Integration testing: Karma? E2E: Selenium/Cypress).
-Unit testing
-  - Jest
-  - Vitest
-Integration testing
-  - Karma
-End to End testing
-  - Selenium
-  - Cypress
+6. [State Managment Libraries](#sml-6)
+   - [Redux Toolkit](#sml-6-1)
+   - [Zustand](#sml-6-2)
+   - [Context API](#sml-6-3)
 
-1.  Internationalization (React Intl, React i18next)
-2.  Eslint + Airbnb + prettier.
-3.  Performance in React (profiler, caching, memo).
-4.  Form building (react hook form)
+7. [Routing - React Router](#routing-7)
+  
+8. [Typescript](#typescript-8)
+   - eslint + airbnb + prettier
+9.  [API](#api-9)
+   9.1 [Rest](#api-9-1)
+    - [RTK](#api-9-1-1) 
+    - [Axios](#api-9-1-2)
+   9.2 [GraphQL](#api-9-2)
+
+10. [Testing](#testing-10)
+   9.1 [Unit Testing](#testing-10-1)
+    - [Jest](#testing-10-1-1) 
+    - [Vitest](#testing-10-1-2)
+   9.2 [Integration Testing](#testing-10-2)
+    - [Karma](#testing-10-2-1) 
+   9.3 [End to End testing](#testing-10-3)
+    - [Selenium](#testing-10-3-1)
+    - [Cypress](#testing-10-3-1)
+
+11. [Internationalization](#internationalization-11)
+   - [React i18next](#internationalization-11-1)
+   - [React Intl](#internationalization-11-2)
+
+12. [Performance in React](#performance-12)
+    - [Profiler](#performance-12-1)
+    - [Caching](#performance-12-2)
+
+13. [Form building](#form-building-13)
+
 
 Beyond React:
 
