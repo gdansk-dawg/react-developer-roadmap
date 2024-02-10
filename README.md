@@ -63,8 +63,8 @@
   
 8. [Typescript](#typescript-8)
    - eslint + airbnb + prettier
-9.  [API](#api-9)
-   9.1 [Rest](#api-9-1)
+9. [API](#api-9)
+   - 9.1 [Rest](#api-9-1)
     - [RTK](#api-9-1-1) 
     - [Axios](#api-9-1-2)
    9.2 [GraphQL](#api-9-2)
@@ -105,9 +105,18 @@ Beyond React:
 
 # 1. Javascript Fundamentals
 
+This is where it all starts, you need to have basic react knowledge to 
+
 <div id='javascript-11'/>
 
 ## Dom Manipulation
+DOM manipulation in JavaScript enables dynamic changes to the content, structure, and style of web pages. It involves using JavaScript to select, add, modify, and remove HTML elements and attributes. Developers can also listen for and respond to user events, allowing for interactive web experiences. This process leverages the Document Object Model (DOM), which represents the page as a structured hierarchy
+
+### Documentation
+https://www.freecodecamp.org/news/dom-manipulation-in-javascript/
+
+### Video explanation
+https://www.youtube.com/watch?v=NO5kUNxGIu0&ab_channel=BroCode
 
 <div id='javascript-12'/>
 
@@ -116,6 +125,14 @@ Beyond React:
 <div id='javascript-13'/>
 
 ## Promises
+TODO add image (promise img)
+Promises in JavaScript are used to handle asynchronous operations, offering a more manageable approach to dealing with actions that might take time to complete, like fetching data from an API. A promise is an object that may produce a single value in the future: either a resolved value or a reason why it's not resolved (e.g., a network error). It can be in one of three states: pending, fulfilled, or rejected. The .then() method is used to handle the fulfilled state, .catch() for rejection, and .finally() for executing code after the promise is settled, regardless of its outcome. This mechanism simplifies asynchronous programming by allowing more straightforward code flow and error handling. Promises are a foundational concept in modern JavaScript development, essential for working with asynchronous data.
+
+### Documentation
+https://javascript.info/promise-basics
+
+### Video explanation
+https://www.youtube.com/watch?v=li7FzDHYZpc&ab_channel=RobertsDevTalk
 
 <div id='javascript-14'/>
 
